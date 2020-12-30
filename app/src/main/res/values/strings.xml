@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">GetMapAddress</string>
+    <string name="get_current_location">Get Current Location</string>
 </resources>
