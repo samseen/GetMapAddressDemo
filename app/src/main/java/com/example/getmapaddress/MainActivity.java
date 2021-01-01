@@ -23,7 +23,7 @@ import com.google.android.gms.location.LocationServices;
 public class MainActivity extends AppCompatActivity {
 
     private static final int REQUEST_CODE_LOCATION_PERMISSION = 1;
-    private TextView textLatLong;
+    private TextView textLatLong, textAddress;
     private ProgressBar progressBar;
 
     @Override
@@ -33,6 +33,7 @@ public class MainActivity extends AppCompatActivity {
 
         textLatLong = findViewById(R.id.textLatLong);
         progressBar = findViewById(R.id.progressBar);
+        textAddress = findViewById(R.id.textAddress);
 
         findViewById(R.id.buttonGetCurrentLocation).setOnClickListener(new View.OnClickListener() {
             @Override
